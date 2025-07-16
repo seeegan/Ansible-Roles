@@ -1,0 +1,6 @@
+---
+# tasks file for common
+
+- name: set timezone to  Europe/Samara
+  timezone:
+    name: Europe/Samara
