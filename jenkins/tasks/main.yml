@@ -9,3 +9,11 @@
   ansible.builtin.copy:
     src: /home/seegan/linuxfactory/infra/scripts/install_java.sh
     dest: /root/scripts
+
+- name: Install Java
+  ansible.builtin.shell:
+    cmd: cd scripts | sh install_java.sh
+
+- name: Install Jenkins
+  ansible.builtin.shell:
+    cmd: cd scripts | sh install_jenkins.sh    
