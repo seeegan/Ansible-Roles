@@ -1,5 +1,0 @@
----
-# tasks file for seegan
-- name: Set a new hostname
-  ansible.builtin.hostname:
-    name: Seegan
