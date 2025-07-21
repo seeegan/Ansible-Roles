@@ -12,8 +12,8 @@
 
 - name: Install Java
   ansible.builtin.shell:
-    cmd: cd scripts | sh install_java.sh
+    cmd: sh install_java.sh
 
 - name: Install Jenkins
   ansible.builtin.shell:
-    cmd: cd scripts | sh install_jenkins.sh    
+    cmd: sh install_jenkins.sh    
